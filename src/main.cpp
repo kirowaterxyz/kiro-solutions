@@ -63,7 +63,7 @@ void CheckForUpdates() {
 			if (latestVersion > currentVersion) {
 				int result = MessageBoxA(NULL, "A new version is available!\nDownload Yes, Ignore No/Cancel", "kiro-solutions updater", MB_YESNOCANCEL | MB_ICONQUESTION);
 				if (result == IDYES) {
-					ShellExecuteA(NULL, "open", "https://github.com/kirowater/kiro-solution-cheat/releases", NULL, NULL, SW_SHOWNORMAL);
+					ShellExecuteA(NULL, "open", "https://github.com/kirowaterxyz/kiro-solutions-cheat/releases", NULL, NULL, SW_SHOWNORMAL);
 					system("cls");
 				}
 				system("cls");
