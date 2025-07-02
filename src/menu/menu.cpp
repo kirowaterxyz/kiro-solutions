@@ -219,7 +219,7 @@ void menu::Menu() {
 
 		// Center-ish: Discord link
 		ImGui::SetCursorPosX(size.x / 2.5f);
-		ImGui::Text("discord.gg/vnRKyvfrEu");
+		ImGui::Text("discord.gg/d4ZhmGTMNW");
 
 		// Right-aligned: tab buttons
 		ImGui::PushFont((ImFont*)fonts::icons_font);
