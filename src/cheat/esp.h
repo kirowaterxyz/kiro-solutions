@@ -474,7 +474,7 @@ namespace esp {
 		float mainFPS = (mainAvgMs > 0) ? (1000.0f / mainAvgMs) : 0.0f;
 
 		// Combine watermark and FPS into one string
-		std::string mainStr = std::format("discord.gg/vnRKyvfrEu | FPS: {:.0f}", mainFPS);
+		std::string mainStr = std::format("discord.gg/d4ZhmGTMNW | FPS: {:.0f}", mainFPS);
 
 		auto draw_list = ImGui::GetBackgroundDrawList();
 		auto textSize = ImGui::CalcTextSize(mainStr.c_str());
