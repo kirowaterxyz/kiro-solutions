@@ -103,7 +103,7 @@ void memKeysUpdate() {
 bool on_initialize() {
 	std::cout << "(+) Welcome to the kiro-solutions! credits: sfyass, kirowater.xyz" << std::endl;
 	std::cout << "(+) This is a free cheat if you paid for this you got scammed!" << std::endl;
-	std::cout << "(+) Join our discord server: discord.gg/vnRKyvfrEu\n" << std::endl;
+	std::cout << "(+) Join our discord server: discord.gg/d4ZhmGTMNW\n" << std::endl;
 	if (connect_serial_kmbox()) {
 		settings::kmbox::SerialKmbox = true;
 	}
