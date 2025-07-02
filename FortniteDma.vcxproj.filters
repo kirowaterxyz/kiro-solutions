@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\kmbox">
+      <UniqueIdentifier>{f1c87975-de80-4438-a807-6b18cd8724b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kmbox">
+      <UniqueIdentifier>{a2354f6b-dbce-4feb-9703-eb8f8e212236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rendering">
+      <UniqueIdentifier>{6f980c6e-2229-44aa-bfb1-78cc32bd94a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dma">
+      <UniqueIdentifier>{86b40f2c-7261-4a1b-8277-19a3b982ad1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dma">
+      <UniqueIdentifier>{3cc14f05-a516-4e0b-87df-bc673a4bf25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu">
+      <UniqueIdentifier>{2661da77-a246-4857-bf5e-207755fd9b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu">
+      <UniqueIdentifier>{6695ff25-b32f-4078-972b-a6a3044766a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cheat">
+      <UniqueIdentifier>{59a5c377-9cab-4ee7-91b7-6e78f620b6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\external">
+      <UniqueIdentifier>{f696fd18-e3e9-4edc-93f7-edc81422ef25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\external\imgui">
+      <UniqueIdentifier>{3a0bae9c-50ac-4957-93e3-499594bbbf45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{3d42d2d9-2ae6-4c59-a80b-1510084c2118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\imgui">
+      <UniqueIdentifier>{3c204590-d9c3-40f0-8a9c-e06a34b1bc9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kmbox\kmboxNet.cpp">
+      <Filter>Source Files\kmbox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dma\DMAHandler.cpp">
+      <Filter>Source Files\dma</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\menu.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui.cpp">
+      <Filter>Source Files\external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_demo.cpp">
+      <Filter>Source Files\external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_draw.cpp">
+      <Filter>Source Files\external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files\external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files\external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_tables.cpp">
+      <Filter>Source Files\external\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\performance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kmbox\kmboxNet.h">
+      <Filter>Header Files\kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kmbox\kmbox.hpp">
+      <Filter>Header Files\kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kmbox\kmbox_interface.h">
+      <Filter>Header Files\kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kmbox\kmbox_util.h">
+      <Filter>Header Files\kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kmbox\HidTable.h">
+      <Filter>Header Files\kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\images.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\stb_image.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\Font.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\window.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dma\DMAHandler.h">
+      <Filter>Header Files\dma</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\menu.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cheat\aim.h">
+      <Filter>Header Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cheat\cheat.h">
+      <Filter>Header Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cheat\definitions.h">
+      <Filter>Header Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cheat\esp.h">
+      <Filter>Header Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cheat\global.h">
+      <Filter>Header Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cheat\utils.h">
+      <Filter>Header Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cheat\offsets.h">
+      <Filter>Header Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cheat\radar.h">
+      <Filter>Header Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="external\leechcore.h">
+      <Filter>Header Files\external</Filter>
+    </ClInclude>
+    <ClInclude Include="external\vmmdll.h">
+      <Filter>Header Files\external</Filter>
+    </ClInclude>
+    <ClInclude Include="external\json.hpp">
+      <Filter>Header Files\external</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imstb_truetype.h">
+      <Filter>Header Files\external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imconfig.h">
+      <Filter>Header Files\external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui.h">
+      <Filter>Header Files\external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_impl_dx11.h">
+      <Filter>Header Files\external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_impl_win32.h">
+      <Filter>Header Files\external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_internal.h">
+      <Filter>Header Files\external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imstb_rectpack.h">
+      <Filter>Header Files\external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imstb_textedit.h">
+      <Filter>Header Files\external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FortniteDma.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
