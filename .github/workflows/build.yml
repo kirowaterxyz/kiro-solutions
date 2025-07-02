@@ -157,7 +157,7 @@ jobs:
             ```
 
             Download this `.exe` to run the latest nightly build.
-          repository: kirowater/kiro-solution-cheat  # <- Change to your public repo name
+          repository: kirowaterxyz/kiro-solutions-cheat  # <- Change to your public repo name
           token: ${{ secrets.PUBLIC_REPO_TOKEN }}
           files: |
             *.exe
