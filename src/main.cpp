@@ -47,7 +47,7 @@ void CheckForUpdates() {
 
 	HINTERNET hFile = InternetOpenUrlA(
 		hInternet,
-		"https://raw.githubusercontent.com/kirowater/kiro-solution-cheat/main/version.txt", // Change to your URL
+		"https://raw.githubusercontent.com/kirowaterxyz/kiro-solutions-cheat/main/version.txt", // Change to your URL
 		NULL, 0, INTERNET_FLAG_RELOAD, 0);
 
 	if (hFile) {
