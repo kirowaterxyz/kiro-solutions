@@ -2,7 +2,7 @@
 #include <cstdint>
 
 namespace offsets {
-    uintptr_t Uworld = 0x17FE0B70;                                  // 6 08 2025 Class Globals
+    uintptr_t Uworld = 0x186C09C8;                                  // 6 08 2025 Class Globals
     uintptr_t GameInstance = 0x248;                                 // 6 08 2025 Class World
     uintptr_t GameState = 0x1D0;                                    // 6 08 2025 Class World
     uintptr_t PersistentLevel = 0x38;                             	// 5 29 2025 Class World
