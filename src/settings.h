@@ -9,7 +9,7 @@ namespace settings {
 	// general
 	namespace runtime {
 		inline int version_major = 3;
-		inline int version_minor = 1;
+		inline int version_minor = 2;
 		inline bool criticalPriority = true;
 		inline bool headless = false; // no console
 		inline bool windowless = false; // no window (to fix)
