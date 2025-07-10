@@ -44,9 +44,9 @@ namespace offsets {
     uintptr_t LocationUnderReticle = 0x2f78;                        // 6 08 2025 Class FortPlayerController
 
     // Weapon
-    uintptr_t WeaponData = 0x6b8;                                   // 6 08 2025 Class FortWeapon
-    uintptr_t WeaponCoreAnimation = 0x1760;							// 6 08 2025 Class FortWeapon
-    uintptr_t CurrentWeapon = 0xaf0;                                // 6 08 2025 Class FortPawn
+    uintptr_t WeaponData = 0x588;                                   // 6 08 2025 Class FortWeapon
+    uintptr_t WeaponCoreAnimation = 0x16B0;							// 6 08 2025 Class FortWeapon
+    uintptr_t CurrentWeapon = 0xAF0;                                // 6 08 2025 Class FortPawn
 
     // Spectator
     uintptr_t Spectators = 0xbb8;                                   // 5 29 2025 Class FortPlayerStatePvE or FortSpectatorCameraComponent
