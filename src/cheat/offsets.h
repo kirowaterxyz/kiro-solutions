@@ -2,10 +2,10 @@
 #include <cstdint>
 
 namespace offsets {
-    uintptr_t Uworld = 0x186C09C8;                                  // 6 08 2025 Class Globals
-    uintptr_t GameInstance = 0x248;                                 // 6 08 2025 Class World
-    uintptr_t GameState = 0x1D0;                                    // 6 08 2025 Class World
-    uintptr_t PersistentLevel = 0x38;                             	// 5 29 2025 Class World
+    uintptr_t Uworld = 0x1488D840;                                  // 6 08 2025 Class Globals
+    uintptr_t GameInstance = 0x228;                                 // 6 08 2025 Class World
+    uintptr_t GameState = 0x1B0;                                    // 6 08 2025 Class World
+    uintptr_t PersistentLevel = 0x30;                             	// 5 29 2025 Class World
     uintptr_t LocalPlayers = 0x38;                                  // 5 29 2025 Class GameInstance
     uintptr_t PlayerController = 0x30;                              // 5 29 2025 Class Player
     uintptr_t LocalPawn = 0x350;                                    // 5 29 2025 AcknowledgedPawn
@@ -24,12 +24,12 @@ namespace offsets {
     uintptr_t RelativeLocation = 0x138;                           // 5 29 2025 Class SceneComponent
 
     // Visibility
-    uintptr_t Seconds = 0x198;                                      // 6 08 2025 CameraRotation + 0x10
+    uintptr_t Seconds = 0x180;                                      // 6 08 2025 CameraRotation + 0x10
     uintptr_t LastRenderTime = 0x32c;                               // 5 29 2025 BoundScale + 08x (BoundScale in FXSystemComponent
 
     // Camera
-    uintptr_t CameraLocationPointer = 0x178;                        // 6 08 2025 Class CameraLocation
-    uintptr_t CameraRotationPointer = 0x188;                        // 6 08 2025 Class CameraRotation
+    uintptr_t CameraLocationPointer = 0x160;                        // 6 08 2025 Class CameraLocation
+    uintptr_t CameraRotationPointer = 0x170;                        // 6 08 2025 Class CameraRotation
     uintptr_t FieldOfView = 0x4AC;                                  // 5 29 2025 point::LocalPlayer + 0x4AC
 
     //Bone
@@ -41,11 +41,11 @@ namespace offsets {
     uintptr_t bIsABot = 0x2b2;                                      // 5 29 2025 Class PlayerState
 
     // Reticle // Targeting
-    uintptr_t LocationUnderReticle = 0x2f78;                        // 6 08 2025 Class FortPlayerController
+    uintptr_t LocationUnderReticle = 0x3018;                        // 6 08 2025 Class FortPlayerController
 
     // Weapon
-    uintptr_t WeaponData = 0x588;                                   // 6 08 2025 Class FortWeapon
-    uintptr_t WeaponCoreAnimation = 0x16B0;							// 6 08 2025 Class FortWeapon
+    uintptr_t WeaponData = 0x548;                                   // 6 08 2025 Class FortWeapon
+    uintptr_t WeaponCoreAnimation = 0x16d8;							// 6 08 2025 Class FortWeapon
     uintptr_t CurrentWeapon = 0xAF0;                                // 6 08 2025 Class FortPawn
 
     // Spectator
